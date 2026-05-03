@@ -1,0 +1,19 @@
+export interface Division {
+  id: string;
+  name: string;
+  nameBn: string;
+}
+
+export interface District {
+  id: string;
+  name: string;
+  nameBn: string;
+  divisionId: string;
+}
+
+export interface Upazila {
+  id: string;
+  name: string;
+  nameBn: string;
+  districtId: string;
+}
