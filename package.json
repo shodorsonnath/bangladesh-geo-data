@@ -1,6 +1,6 @@
 {
   "name": "bangladesh-geo-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bangladesh divisions, districts, and upazilas dataset with utility functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
