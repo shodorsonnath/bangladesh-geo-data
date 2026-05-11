@@ -1,5 +1,12 @@
 # 🇧🇩 Bangladesh Geo Data
 
+[![npm version](https://img.shields.io/npm/v/country-code-data.svg)](https://www.npmjs.com/package/country-code-data)
+[![npm downloads](https://img.shields.io/npm/dm/country-code-data.svg?cacheSeconds=86400)](https://www.npmjs.com/package/country-code-data)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+
+<!-- rest of your README -->
+
 A lightweight npm package providing **Bangladesh divisions, districts,
 and upazilas data** with simple utility functions for easy usage in
 JavaScript/TypeScript applications.
@@ -18,6 +25,8 @@ JavaScript/TypeScript applications.
 ------------------------------------------------------------------------
 
 ## 📦 Installation
+
+Install the package using **npm** or **Yarn**:
 
 ``` bash
 npm install bangladesh-geo-data
