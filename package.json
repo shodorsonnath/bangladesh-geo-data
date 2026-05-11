@@ -4,6 +4,15 @@
   "description": "Bangladesh divisions, districts, and upazilas dataset with utility functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
   "keywords": [
     "bangladesh",
     "districts",
@@ -12,9 +21,6 @@
     "bd-data",
     "geo-data"
   ],
-  "scripts": {
-    "build": "tsc"
-  },
   "author": "Shodorson",
   "license": "MIT",
   "devDependencies": {
