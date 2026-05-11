@@ -1,7 +1,7 @@
 # 🇧🇩 Bangladesh Geo Data
 
-[![npm version](https://img.shields.io/npm/v/country-code-data.svg)](https://www.npmjs.com/package/country-code-data)
-[![npm downloads](https://img.shields.io/npm/dm/country-code-data.svg?cacheSeconds=86400)](https://www.npmjs.com/package/country-code-data)
+[![npm version](https://img.shields.io/npm/v/bangladesh-geo-data.svg)](https://www.npmjs.com/package/bangladesh-geo-data)
+[![npm downloads](https://img.shields.io/npm/dm/bangladesh-geo-data.svg?cacheSeconds=86400)](https://www.npmjs.com/package/bangladesh-geo-data)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 
