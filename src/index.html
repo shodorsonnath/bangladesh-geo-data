@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bangladesh-geo-data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Bengali:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:   #00c853;
+      --green2:  #00e676;
+      --bg:      #0a0d0f;
+      --bg2:     #111518;
+      --bg3:     #181e22;
+      --border:  #1e2a2f;
+      --text:    #e8f0ee;
+      --muted:   #5a7068;
+      --card-bg: #0f1518;
+      --code-bg: #0d1a14;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Syne', sans-serif;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2.5rem;
+      height: 60px;
+      background: rgba(10,13,15,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em;
+      color: var(--green); text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 0.82rem;
+      font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-badge {
+      background: var(--green); color: #000;
+      font-size: 0.72rem; font-weight: 700; padding: 4px 10px;
+      border-radius: 100px; font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 8rem 2rem 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 50% 0%, rgba(0,200,83,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 30% at 20% 80%, rgba(0,200,83,0.05) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-flag {
+      font-size: 3.5rem; margin-bottom: 1.5rem;
+      animation: floatFlag 3s ease-in-out infinite;
+    }
+    @keyframes floatFlag {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(-8px); }
+    }
+    .hero-npm {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: var(--code-bg); border: 1px solid var(--border);
+      padding: 8px 18px; border-radius: 8px; margin-bottom: 2rem;
+      font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+      color: var(--green2); animation: fadeUp 0.6s ease both;
+    }
+    .hero-npm span { color: var(--muted); }
+    h1 {
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 800; line-height: 1.05; letter-spacing: -0.03em;
+      animation: fadeUp 0.7s 0.1s ease both;
+    }
+    h1 em { color: var(--green); font-style: normal; }
+    .hero-sub {
+      max-width: 540px; margin: 1.5rem auto 0;
+      color: var(--muted); font-size: 1.05rem; font-weight: 400;
+      animation: fadeUp 0.7s 0.2s ease both;
+    }
+    .hero-actions {
+      display: flex; gap: 1rem; justify-content: center;
+      margin-top: 2.5rem; flex-wrap: wrap;
+      animation: fadeUp 0.7s 0.3s ease both;
+    }
+    .btn-primary {
+      background: var(--green); color: #000;
+      font-family: 'JetBrains Mono', monospace; font-weight: 700;
+      font-size: 0.82rem; padding: 12px 24px; border-radius: 8px;
+      border: none; cursor: pointer; transition: all 0.2s;
+      text-decoration: none; display: inline-block;
+    }
+    .btn-primary:hover { background: var(--green2); transform: translateY(-2px); }
+    .btn-ghost {
+      background: transparent; color: var(--text);
+      font-family: 'JetBrains Mono', monospace; font-weight: 500;
+      font-size: 0.82rem; padding: 12px 24px; border-radius: 8px;
+      border: 1px solid var(--border); cursor: pointer; transition: all 0.2s;
+      text-decoration: none; display: inline-block;
+    }
+    .btn-ghost:hover { border-color: var(--green); color: var(--green); }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── STATS ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1px; background: var(--border);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat {
+      background: var(--bg2); padding: 2rem 1.5rem; text-align: center;
+      transition: background 0.2s;
+    }
+    .stat:hover { background: var(--bg3); }
+    .stat-num {
+      font-size: 2rem; font-weight: 800; color: var(--green);
+      letter-spacing: -0.04em; font-variant-numeric: tabular-nums;
+      display: block;
+    }
+    .stat-label {
+      font-size: 0.72rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: 0.08em; margin-top: 4px; font-weight: 600;
+    }
+
+    /* ── SECTION WRAPPER ── */
+    section { padding: 5rem 2rem; max-width: 1100px; margin: 0 auto; }
+    .section-tag {
+      display: inline-block; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--green); border: 1px solid rgba(0,200,83,0.3);
+      padding: 4px 12px; border-radius: 100px; margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800;
+      letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 0.75rem;
+    }
+    .section-sub { color: var(--muted); font-size: 1rem; max-width: 520px; }
+
+    /* ── INSTALL ── */
+    .install-box {
+      margin-top: 3rem; background: var(--code-bg);
+      border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+    }
+    .install-tabs {
+      display: flex; border-bottom: 1px solid var(--border);
+    }
+    .install-tab {
+      padding: 10px 20px; font-size: 0.78rem; font-weight: 600;
+      font-family: 'JetBrains Mono', monospace; color: var(--muted);
+      cursor: pointer; border: none; background: none; transition: all 0.2s;
+      letter-spacing: 0.04em;
+    }
+    .install-tab.active { color: var(--green); border-bottom: 2px solid var(--green); }
+    .install-cmd {
+      padding: 1.5rem 2rem; display: none;
+      font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;
+      color: var(--text);
+    }
+    .install-cmd.active { display: flex; align-items: center; justify-content: space-between; }
+    .install-cmd .prompt { color: var(--muted); margin-right: 0.5rem; }
+    .copy-btn {
+      background: var(--bg3); border: 1px solid var(--border);
+      color: var(--muted); padding: 6px 14px; border-radius: 6px;
+      font-size: 0.72rem; font-family: 'JetBrains Mono', monospace;
+      cursor: pointer; transition: all 0.2s; white-space: nowrap;
+    }
+    .copy-btn:hover { color: var(--green); border-color: var(--green); }
+
+    /* ── DATA LEVELS ── */
+    .levels-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px; background: var(--border); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden; margin-top: 3rem;
+    }
+    .level-card {
+      background: var(--card-bg); padding: 1.8rem;
+      transition: background 0.2s; position: relative;
+    }
+    .level-card:hover { background: var(--bg3); }
+    .level-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+    .level-name {
+      font-size: 1.05rem; font-weight: 700; margin-bottom: 0.3rem;
+    }
+    .level-count {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+      color: var(--green); font-weight: 600; margin-bottom: 0.75rem;
+    }
+    .level-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+    .level-id {
+      position: absolute; top: 1rem; right: 1rem;
+      font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+      color: var(--border); background: var(--bg2);
+      padding: 2px 8px; border-radius: 4px;
+    }
+
+    /* ── CODE EXAMPLES ── */
+    .code-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 700px) { .code-grid { grid-template-columns: 1fr; } }
+    .code-card {
+      background: var(--code-bg); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden;
+    }
+    .code-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.8rem 1.2rem; border-bottom: 1px solid var(--border);
+    }
+    .code-title { font-size: 0.75rem; font-weight: 700; color: var(--text); }
+    .code-lang {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+      color: var(--green); background: rgba(0,200,83,0.1);
+      padding: 2px 8px; border-radius: 4px;
+    }
+    pre {
+      padding: 1.2rem; overflow-x: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem; line-height: 1.7;
+    }
+    .kw  { color: #ff79c6; }
+    .fn  { color: #50fa7b; }
+    .str { color: #f1fa8c; }
+    .cm  { color: #6272a4; }
+    .id  { color: #8be9fd; }
+    .op  { color: var(--muted); }
+
+    /* ── LIVE DEMO ── */
+    .demo-wrapper {
+      margin-top: 3rem; background: var(--card-bg);
+      border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
+    }
+    .demo-header {
+      padding: 1rem 1.5rem; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 0.75rem;
+    }
+    .demo-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .demo-header-title {
+      font-size: 0.78rem; font-weight: 700; color: var(--muted);
+      margin-left: auto; font-family: 'JetBrains Mono', monospace;
+    }
+    .demo-body { padding: 1.5rem; }
+    .demo-selects {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .demo-select-wrap { display: flex; flex-direction: column; gap: 6px; }
+    .demo-label {
+      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--muted);
+    }
+    select {
+      background: var(--bg2); border: 1px solid var(--border);
+      color: var(--text); padding: 10px 14px; border-radius: 8px;
+      font-family: 'Syne', sans-serif; font-size: 0.85rem;
+      cursor: pointer; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%235a7068' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 12px center;
+      transition: border-color 0.2s;
+    }
+    select:focus { outline: none; border-color: var(--green); }
+    select:disabled { opacity: 0.4; cursor: not-allowed; }
+    .demo-result {
+      background: var(--code-bg); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.2rem;
+      font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+      line-height: 1.8; min-height: 120px; color: var(--muted);
+      transition: all 0.3s;
+    }
+    .demo-result.has-data { color: var(--text); }
+    .result-key { color: #8be9fd; }
+    .result-str { color: #f1fa8c; }
+    .result-num { color: #bd93f9; }
+    .result-bn  { font-family: 'Noto Sans Bengali', sans-serif; font-size: 0.85rem; }
+
+    /* ── TYPES ── */
+    .types-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem; margin-top: 3rem;
+    }
+    .type-card {
+      background: var(--code-bg); border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden;
+    }
+    .type-header {
+      padding: 0.75rem 1rem; border-bottom: 1px solid var(--border);
+      font-size: 0.72rem; font-weight: 700; color: var(--green);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .type-body { padding: 1rem; }
+    .type-field {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 4px 0; border-bottom: 1px solid rgba(30,42,47,0.5);
+      font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+    }
+    .type-field:last-child { border: none; }
+    .type-fname { color: #8be9fd; }
+    .type-ftype { color: #ff79c6; }
+
+    /* ── THANA TYPES ── */
+    .thana-types {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 1rem; margin-top: 2rem;
+    }
+    @media (max-width: 600px) { .thana-types { grid-template-columns: 1fr; } }
+    .thana-badge {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.5rem; text-align: center;
+    }
+    .thana-badge-num {
+      font-size: 2.2rem; font-weight: 800; color: var(--green);
+      letter-spacing: -0.04em; display: block;
+    }
+    .thana-badge-type {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+      color: var(--muted); margin: 4px 0; display: block;
+    }
+    .thana-badge-desc { font-size: 0.78rem; color: var(--muted); }
+
+    /* ── ID TABLE ── */
+    .id-table {
+      width: 100%; border-collapse: collapse; margin-top: 2rem;
+      font-size: 0.85rem;
+    }
+    .id-table th {
+      text-align: left; padding: 10px 16px;
+      border-bottom: 2px solid var(--border);
+      font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--muted); font-weight: 700;
+    }
+    .id-table td {
+      padding: 12px 16px; border-bottom: 1px solid var(--border);
+    }
+    .id-table tr:last-child td { border: none; }
+    .id-table tr:hover td { background: var(--bg3); }
+    .id-mono {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem; color: var(--green2);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border); padding: 2.5rem 2rem;
+      text-align: center; color: var(--muted); font-size: 0.8rem;
+    }
+    footer a { color: var(--green); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── DIVIDER ── */
+    .full-divider {
+      height: 1px; background: var(--border); margin: 0;
+    }
+
+    /* ── SCROLL REVEAL ── */
+    .reveal {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">bangladesh-geo-data</div>
+  <div class="nav-links">
+    <a href="#install">Install</a>
+    <a href="#data">Data</a>
+    <a href="#demo">Demo</a>
+    <a href="#api">API</a>
+  </div>
+  <span class="nav-badge">v4.0.0</span>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-flag">🇧🇩</div>
+  <div class="hero-npm">
+    <span>$</span> npm install <strong>bangladesh-geo-data</strong>
+  </div>
+  <h1>Complete Bangladesh<br /><em>Geo Dataset</em></h1>
+  <p class="hero-sub">
+    Divisions, districts, upazilas, unions, city corporations, wards &amp; thanas —
+    all in one TypeScript-ready npm package with zero dependencies.
+  </p>
+  <div class="hero-actions">
+    <a href="#install" class="btn-primary">Get Started</a>
+    <a href="https://www.npmjs.com/package/bangladesh-geo-data" target="_blank" class="btn-ghost">View on npm ↗</a>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat"><span class="stat-num">8</span><span class="stat-label">Divisions</span></div>
+  <div class="stat"><span class="stat-num">64</span><span class="stat-label">Districts</span></div>
+  <div class="stat"><span class="stat-num">495</span><span class="stat-label">Upazilas</span></div>
+  <div class="stat"><span class="stat-num">4,599</span><span class="stat-label">Unions</span></div>
+  <div class="stat"><span class="stat-num">12</span><span class="stat-label">City Corps</span></div>
+  <div class="stat"><span class="stat-num">462</span><span class="stat-label">Wards</span></div>
+  <div class="stat"><span class="stat-num">639</span><span class="stat-label">Thanas</span></div>
+</div>
+
+<div class="full-divider"></div>
+
+<!-- INSTALL -->
+<section id="install" class="reveal">
+  <span class="section-tag">Installation</span>
+  <h2>Get up and running<br />in seconds</h2>
+  <p class="section-sub">Zero dependencies. Works in Node.js, React, Next.js, and any TypeScript project.</p>
+
+  <div class="install-box">
+    <div class="install-tabs">
+      <button class="install-tab active" onclick="switchTab('npm')">npm</button>
+      <button class="install-tab" onclick="switchTab('yarn')">yarn</button>
+      <button class="install-tab" onclick="switchTab('pnpm')">pnpm</button>
+    </div>
+    <div class="install-cmd active" id="tab-npm">
+      <span><span class="prompt">$</span> npm install bangladesh-geo-data</span>
+      <button class="copy-btn" onclick="copyText('npm install bangladesh-geo-data', this)">Copy</button>
+    </div>
+    <div class="install-cmd" id="tab-yarn">
+      <span><span class="prompt">$</span> yarn add bangladesh-geo-data</span>
+      <button class="copy-btn" onclick="copyText('yarn add bangladesh-geo-data', this)">Copy</button>
+    </div>
+    <div class="install-cmd" id="tab-pnpm">
+      <span><span class="prompt">$</span> pnpm add bangladesh-geo-data</span>
+      <button class="copy-btn" onclick="copyText('pnpm add bangladesh-geo-data', this)">Copy</button>
+    </div>
+  </div>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- DATA LEVELS -->
+<section id="data" class="reveal">
+  <span class="section-tag">Data Levels</span>
+  <h2>7 levels of<br />administrative data</h2>
+  <p class="section-sub">Every level linked by consistent IDs — easy to traverse in any direction.</p>
+
+  <div class="levels-grid">
+    <div class="level-card">
+      <div class="level-icon">🗺️</div>
+      <div class="level-name">Divisions</div>
+      <div class="level-count">8 entries · div-01 → div-08</div>
+      <div class="level-desc">The 8 top-level administrative divisions of Bangladesh including Dhaka, Chattogram, Rajshahi and more.</div>
+      <div class="level-id">div-XX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🏙️</div>
+      <div class="level-name">Districts</div>
+      <div class="level-count">64 entries · dis-01 → dis-64</div>
+      <div class="level-desc">All 64 districts (zilas) of Bangladesh, each linked to their parent division via <code style="color:var(--green);font-size:0.75rem">divisionId</code>.</div>
+      <div class="level-id">dis-XX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🏡</div>
+      <div class="level-name">Upazilas</div>
+      <div class="level-count">495 entries · upa-001 → upa-495</div>
+      <div class="level-desc">All sub-districts including 2 newly added upazilas — Eidgaon (Cox's Bazar) and Bandar (Narayanganj).</div>
+      <div class="level-id">upa-XXX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🏘️</div>
+      <div class="level-name">Unions</div>
+      <div class="level-count">4,599 entries · uni-0001 → uni-4599</div>
+      <div class="level-desc">Complete union data with post office names and postal codes for every union parishad in the country.</div>
+      <div class="level-id">uni-XXXX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🏛️</div>
+      <div class="level-name">City Corporations</div>
+      <div class="level-count">12 entries · cc-01 → cc-12</div>
+      <div class="level-desc">All 12 city corporations (DNCC, DSCC, CCC, GCC, KCC, RCC, BCC, SCC, NCC, ComCC, MCC, RpCC).</div>
+      <div class="level-id">cc-XX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🗳️</div>
+      <div class="level-name">Wards</div>
+      <div class="level-count">462 entries · ward-0001 → ward-0462</div>
+      <div class="level-desc">All city corporation wards. Chattogram's 41 wards are fully named (South Pahartali, Lalkhan Bazar etc.).</div>
+      <div class="level-id">ward-XXXX</div>
+    </div>
+    <div class="level-card">
+      <div class="level-icon">🚔</div>
+      <div class="level-name">Thanas</div>
+      <div class="level-count">639 entries · tha-0001 → tha-0639</div>
+      <div class="level-desc">Rural (495), sub-district (34) and metropolitan (110) thanas — 3 types covering all police jurisdictions.</div>
+      <div class="level-id">tha-XXXX</div>
+    </div>
+  </div>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- LIVE DEMO -->
+<section id="demo" class="reveal">
+  <span class="section-tag">Live Demo</span>
+  <h2>Try the cascading<br />location selector</h2>
+  <p class="section-sub">Select division → district → upazila to see the data structure in real time.</p>
+
+  <div class="demo-wrapper">
+    <div class="demo-header">
+      <div class="demo-dot" style="background:#ff5f57"></div>
+      <div class="demo-dot" style="background:#ffbd2e"></div>
+      <div class="demo-dot" style="background:#28ca41"></div>
+      <span class="demo-header-title">Interactive Explorer</span>
+    </div>
+    <div class="demo-body">
+      <div class="demo-selects">
+        <div class="demo-select-wrap">
+          <label class="demo-label">Division</label>
+          <select id="sel-division" onchange="onDivisionChange()">
+            <option value="">Select Division</option>
+          </select>
+        </div>
+        <div class="demo-select-wrap">
+          <label class="demo-label">District</label>
+          <select id="sel-district" onchange="onDistrictChange()" disabled>
+            <option value="">Select District</option>
+          </select>
+        </div>
+        <div class="demo-select-wrap">
+          <label class="demo-label">Upazila</label>
+          <select id="sel-upazila" onchange="onUpazilaChange()" disabled>
+            <option value="">Select Upazila</option>
+          </select>
+        </div>
+      </div>
+      <div class="demo-result" id="demo-result">
+        <span style="color:var(--muted)">// Select a location above to see the data output...</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- CODE EXAMPLES -->
+<section id="api" class="reveal">
+  <span class="section-tag">API Reference</span>
+  <h2>Expressive,<br />type-safe functions</h2>
+  <p class="section-sub">Every function returns fully typed objects. Works perfectly with autocomplete.</p>
+
+  <div class="code-grid">
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">Divisions &amp; Districts</span>
+        <span class="code-lang">TypeScript</span>
+      </div>
+      <pre><span class="kw">import</span> {
+  getAllDivisions,
+  getDivisionById,
+  getDistrictsByDivision,
+  getDivisionWithDistricts
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// All 8 divisions</span>
+<span class="kw">const</span> <span class="id">divisions</span> = <span class="fn">getAllDivisions</span>();
+
+<span class="cm">// Dhaka division</span>
+<span class="kw">const</span> <span class="id">dhaka</span> = <span class="fn">getDivisionById</span>(<span class="str">"div-01"</span>);
+
+<span class="cm">// All districts in Dhaka</span>
+<span class="kw">const</span> <span class="id">districts</span> =
+  <span class="fn">getDistrictsByDivision</span>(<span class="str">"div-01"</span>);
+
+<span class="cm">// Division + nested districts</span>
+<span class="kw">const</span> <span class="id">withDist</span> =
+  <span class="fn">getDivisionWithDistricts</span>(<span class="str">"div-01"</span>);</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">Unions &amp; Postal Codes</span>
+        <span class="code-lang">TypeScript</span>
+      </div>
+      <pre><span class="kw">import</span> {
+  getUnionsByUpazila,
+  getUnionsByPostalCode,
+  getFullLocationByUnion
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// All unions in an upazila</span>
+<span class="kw">const</span> <span class="id">unions</span> =
+  <span class="fn">getUnionsByUpazila</span>(<span class="str">"upa-001"</span>);
+
+<span class="cm">// By postal code</span>
+<span class="kw">const</span> <span class="id">postal</span> =
+  <span class="fn">getUnionsByPostalCode</span>(<span class="str">"1350"</span>);
+
+<span class="cm">// Full 4-level hierarchy</span>
+<span class="kw">const</span> <span class="id">loc</span> =
+  <span class="fn">getFullLocationByUnion</span>(<span class="str">"uni-0001"</span>);
+<span class="cm">// → { division, district, upazila, union }</span></pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">City Corporations &amp; Wards</span>
+        <span class="code-lang">TypeScript</span>
+      </div>
+      <pre><span class="kw">import</span> {
+  getCityCorporationByShortName,
+  getCityCorporationWithWards,
+  getWardByNumber,
+  getFullUrbanLocationByWard
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// By short name</span>
+<span class="kw">const</span> <span class="id">dncc</span> =
+  <span class="fn">getCityCorporationByShortName</span>(<span class="str">"DNCC"</span>);
+
+<span class="cm">// With all 54 wards</span>
+<span class="kw">const</span> <span class="id">full</span> =
+  <span class="fn">getCityCorporationWithWards</span>(<span class="str">"cc-01"</span>);
+
+<span class="cm">// Specific ward by number</span>
+<span class="kw">const</span> <span class="id">w14</span> =
+  <span class="fn">getWardByNumber</span>(<span class="str">"cc-03"</span>, <span class="op">14</span>);</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">Thanas</span>
+        <span class="code-lang">TypeScript</span>
+      </div>
+      <pre><span class="kw">import</span> {
+  getRuralThanas,
+  getMetropolitanThanas,
+  getThanasByType,
+  getThanasByCityCorporation,
+  getThanaWithDetails
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// 495 rural thanas</span>
+<span class="kw">const</span> <span class="id">rural</span> = <span class="fn">getRuralThanas</span>();
+
+<span class="cm">// 110 metro thanas</span>
+<span class="kw">const</span> <span class="id">metro</span> = <span class="fn">getMetropolitanThanas</span>();
+
+<span class="cm">// DMP thanas (50 stations)</span>
+<span class="kw">const</span> <span class="id">dmp</span> =
+  <span class="fn">getThanasByCityCorporation</span>(<span class="str">"cc-01"</span>);</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">Search (EN + বাংলা)</span>
+        <span class="code-lang">TypeScript</span>
+      </div>
+      <pre><span class="kw">import</span> {
+  searchUnions,
+  searchUpazilas,
+  searchDistricts,
+  searchThanas,
+  searchWards
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// English search</span>
+<span class="fn">searchUpazilas</span>(<span class="str">"Dhaka"</span>);
+<span class="fn">searchThanas</span>(<span class="str">"Mirpur"</span>);
+<span class="fn">searchWards</span>(<span class="str">"Pahartali"</span>);
+
+<span class="cm">// Bengali search</span>
+<span class="fn">searchDistricts</span>(<span class="str">"সিলেট"</span>);
+<span class="fn">searchUnions</span>(<span class="str">"সুবিল"</span>);</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-header">
+        <span class="code-title">TypeScript Types</span>
+        <span class="code-lang">Types</span>
+      </div>
+      <pre><span class="kw">import type</span> {
+  Division, District,
+  Upazila, Union,
+  CityCorpration, Ward,
+  Thana, ThanaType,
+  FullLocation,
+  FullUrbanLocation,
+  ThanaWithDetails
+} <span class="kw">from</span> <span class="str">"bangladesh-geo-data"</span>;
+
+<span class="cm">// ThanaType union type</span>
+<span class="kw">type</span> <span class="id">ThanaType</span> =
+  | <span class="str">"rural"</span>
+  | <span class="str">"sub-district"</span>
+  | <span class="str">"metropolitan"</span>;</pre>
+    </div>
+  </div>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- THANA TYPES -->
+<section class="reveal">
+  <span class="section-tag">Thana Types</span>
+  <h2>3 thana types,<br />639 total</h2>
+  <p class="section-sub">The 639 thanas are structured across three distinct categories reflecting real police jurisdiction types.</p>
+
+  <div class="thana-types">
+    <div class="thana-badge">
+      <span class="thana-badge-num">495</span>
+      <span class="thana-badge-type">"rural"</span>
+      <span class="thana-badge-desc">One per upazila — same name and boundary as the upazila, linked via <code style="color:var(--green);font-size:0.72rem">upazilaId</code></span>
+    </div>
+    <div class="thana-badge">
+      <span class="thana-badge-num">34</span>
+      <span class="thana-badge-type">"sub-district"</span>
+      <span class="thana-badge-desc">Additional police stations within large upazilas e.g. Bangrabazar within Muradnagar</span>
+    </div>
+    <div class="thana-badge">
+      <span class="thana-badge-num">110</span>
+      <span class="thana-badge-type">"metropolitan"</span>
+      <span class="thana-badge-desc">City corporation thanas — DMP (50), CMP (16), KMP (8), GMP (8), BMP (8), SMP (6), RPMP (6)…</span>
+    </div>
+  </div>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- ID TABLE -->
+<section class="reveal">
+  <span class="section-tag">ID Reference</span>
+  <h2>Consistent ID<br />format across all levels</h2>
+
+  <table class="id-table">
+    <thead>
+      <tr>
+        <th>Level</th>
+        <th>Pattern</th>
+        <th>Example</th>
+        <th>Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Division</td><td class="id-mono">div-XX</td><td class="id-mono">div-01</td><td>8</td></tr>
+      <tr><td>District</td><td class="id-mono">dis-XX</td><td class="id-mono">dis-17</td><td>64</td></tr>
+      <tr><td>Upazila</td><td class="id-mono">upa-XXX</td><td class="id-mono">upa-001</td><td>495</td></tr>
+      <tr><td>Union</td><td class="id-mono">uni-XXXX</td><td class="id-mono">uni-0001</td><td>4,599</td></tr>
+      <tr><td>City Corporation</td><td class="id-mono">cc-XX</td><td class="id-mono">cc-01</td><td>12</td></tr>
+      <tr><td>Ward</td><td class="id-mono">ward-XXXX</td><td class="id-mono">ward-0112</td><td>462</td></tr>
+      <tr><td>Thana</td><td class="id-mono">tha-XXXX</td><td class="id-mono">tha-0530</td><td>639</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="full-divider"></div>
+
+<!-- FOOTER -->
+<footer>
+  <p style="margin-bottom:0.5rem">
+    <strong style="color:var(--text)">bangladesh-geo-data</strong> v4.0.0 &nbsp;·&nbsp;
+    MIT License &nbsp;·&nbsp;
+    By <a href="https://github.com/shodorsonnath">Shodorson</a>
+  </p>
+  <p>
+    <a href="https://www.npmjs.com/package/bangladesh-geo-data">npm</a> &nbsp;·&nbsp;
+    <a href="https://github.com/shodorsonnath">GitHub</a>
+  </p>
+</footer>
+
+<script>
+// ── Embedded data (subset for demo) ──────────────────────────────────────────
+const DIVISIONS = [
+  {id:"div-01",name:"Dhaka",nameBn:"ঢাকা"},
+  {id:"div-02",name:"Chattogram",nameBn:"চট্টগ্রাম"},
+  {id:"div-03",name:"Rajshahi",nameBn:"রাজশাহী"},
+  {id:"div-04",name:"Khulna",nameBn:"খুলনা"},
+  {id:"div-05",name:"Barishal",nameBn:"বরিশাল"},
+  {id:"div-06",name:"Sylhet",nameBn:"সিলেট"},
+  {id:"div-07",name:"Rangpur",nameBn:"রংপুর"},
+  {id:"div-08",name:"Mymensingh",nameBn:"ময়মনসিংহ"},
+];
+
+const DISTRICTS = [
+  {id:"dis-01",name:"Dhaka",nameBn:"ঢাকা",divisionId:"div-01"},
+  {id:"dis-02",name:"Faridpur",nameBn:"ফরিদপুর",divisionId:"div-01"},
+  {id:"dis-03",name:"Gazipur",nameBn:"গাজীপুর",divisionId:"div-01"},
+  {id:"dis-04",name:"Gopalganj",nameBn:"গোপালগঞ্জ",divisionId:"div-01"},
+  {id:"dis-05",name:"Kishoreganj",nameBn:"কিশোরগঞ্জ",divisionId:"div-01"},
+  {id:"dis-06",name:"Madaripur",nameBn:"মাদারীপুর",divisionId:"div-01"},
+  {id:"dis-07",name:"Manikganj",nameBn:"মানিকগঞ্জ",divisionId:"div-01"},
+  {id:"dis-08",name:"Munshiganj",nameBn:"মুন্সীগঞ্জ",divisionId:"div-01"},
+  {id:"dis-09",name:"Narayanganj",nameBn:"নারায়ণগঞ্জ",divisionId:"div-01"},
+  {id:"dis-10",name:"Narsingdi",nameBn:"নরসিংদী",divisionId:"div-01"},
+  {id:"dis-11",name:"Rajbari",nameBn:"রাজবাড়ী",divisionId:"div-01"},
+  {id:"dis-12",name:"Shariatpur",nameBn:"শরীয়তপুর",divisionId:"div-01"},
+  {id:"dis-13",name:"Tangail",nameBn:"টাঙ্গাইল",divisionId:"div-01"},
+  {id:"dis-14",name:"Bandarban",nameBn:"বান্দরবান",divisionId:"div-02"},
+  {id:"dis-15",name:"Brahmanbaria",nameBn:"ব্রাহ্মণবাড়িয়া",divisionId:"div-02"},
+  {id:"dis-16",name:"Chandpur",nameBn:"চাঁদপুর",divisionId:"div-02"},
+  {id:"dis-17",name:"Chattogram",nameBn:"চট্টগ্রাম",divisionId:"div-02"},
+  {id:"dis-18",name:"Cox's Bazar",nameBn:"কক্সবাজার",divisionId:"div-02"},
+  {id:"dis-19",name:"Cumilla",nameBn:"কুমিল্লা",divisionId:"div-02"},
+  {id:"dis-20",name:"Feni",nameBn:"ফেনী",divisionId:"div-02"},
+  {id:"dis-21",name:"Khagrachhari",nameBn:"খাগড়াছড়ি",divisionId:"div-02"},
+  {id:"dis-22",name:"Lakshmipur",nameBn:"লক্ষ্মীপুর",divisionId:"div-02"},
+  {id:"dis-23",name:"Noakhali",nameBn:"নোয়াখালী",divisionId:"div-02"},
+  {id:"dis-24",name:"Rangamati",nameBn:"রাঙ্গামাটি",divisionId:"div-02"},
+  {id:"dis-25",name:"Barguna",nameBn:"বরগুনা",divisionId:"div-05"},
+  {id:"dis-26",name:"Barishal",nameBn:"বরিশাল",divisionId:"div-05"},
+  {id:"dis-27",name:"Bhola",nameBn:"ভোলা",divisionId:"div-05"},
+  {id:"dis-28",name:"Jhalokathi",nameBn:"ঝালকাঠি",divisionId:"div-05"},
+  {id:"dis-29",name:"Patuakhali",nameBn:"পটুয়াখালী",divisionId:"div-05"},
+  {id:"dis-30",name:"Pirojpur",nameBn:"পিরোজপুর",divisionId:"div-05"},
+  {id:"dis-31",name:"Bagerhat",nameBn:"বাগেরহাট",divisionId:"div-04"},
+  {id:"dis-32",name:"Chuadanga",nameBn:"চুয়াডাঙ্গা",divisionId:"div-04"},
+  {id:"dis-33",name:"Jessore",nameBn:"যশোর",divisionId:"div-04"},
+  {id:"dis-34",name:"Jhenaidah",nameBn:"ঝিনাইদহ",divisionId:"div-04"},
+  {id:"dis-35",name:"Khulna",nameBn:"খুলনা",divisionId:"div-04"},
+  {id:"dis-36",name:"Kushtia",nameBn:"কুষ্টিয়া",divisionId:"div-04"},
+  {id:"dis-37",name:"Magura",nameBn:"মাগুরা",divisionId:"div-04"},
+  {id:"dis-38",name:"Meherpur",nameBn:"মেহেরপুর",divisionId:"div-04"},
+  {id:"dis-39",name:"Narail",nameBn:"নড়াইল",divisionId:"div-04"},
+  {id:"dis-40",name:"Satkhira",nameBn:"সাতক্ষীরা",divisionId:"div-04"},
+  {id:"dis-41",name:"Bogra",nameBn:"বগুড়া",divisionId:"div-03"},
+  {id:"dis-42",name:"Joypurhat",nameBn:"জয়পুরহাট",divisionId:"div-03"},
+  {id:"dis-43",name:"Naogaon",nameBn:"নওগাঁ",divisionId:"div-03"},
+  {id:"dis-44",name:"Natore",nameBn:"নাটোর",divisionId:"div-03"},
+  {id:"dis-45",name:"Chapai Nawabganj",nameBn:"চাঁপাইনবাবগঞ্জ",divisionId:"div-03"},
+  {id:"dis-46",name:"Pabna",nameBn:"পাবনা",divisionId:"div-03"},
+  {id:"dis-47",name:"Rajshahi",nameBn:"রাজশাহী",divisionId:"div-03"},
+  {id:"dis-48",name:"Sirajganj",nameBn:"সিরাজগঞ্জ",divisionId:"div-03"},
+  {id:"dis-49",name:"Dinajpur",nameBn:"দিনাজপুর",divisionId:"div-07"},
+  {id:"dis-50",name:"Gaibandha",nameBn:"গাইবান্ধা",divisionId:"div-07"},
+  {id:"dis-51",name:"Kurigram",nameBn:"কুড়িগ্রাম",divisionId:"div-07"},
+  {id:"dis-52",name:"Lalmonirhat",nameBn:"লালমনিরহাট",divisionId:"div-07"},
+  {id:"dis-53",name:"Nilphamari",nameBn:"নীলফামারী",divisionId:"div-07"},
+  {id:"dis-54",name:"Panchagarh",nameBn:"পঞ্চগড়",divisionId:"div-07"},
+  {id:"dis-55",name:"Rangpur",nameBn:"রংপুর",divisionId:"div-07"},
+  {id:"dis-56",name:"Thakurgaon",nameBn:"ঠাকুরগাঁও",divisionId:"div-07"},
+  {id:"dis-57",name:"Habiganj",nameBn:"হবিগঞ্জ",divisionId:"div-06"},
+  {id:"dis-58",name:"Moulvibazar",nameBn:"মৌলভীবাজার",divisionId:"div-06"},
+  {id:"dis-59",name:"Sunamganj",nameBn:"সুনামগঞ্জ",divisionId:"div-06"},
+  {id:"dis-60",name:"Sylhet",nameBn:"সিলেট",divisionId:"div-06"},
+  {id:"dis-61",name:"Jamalpur",nameBn:"জামালপুর",divisionId:"div-08"},
+  {id:"dis-62",name:"Mymensingh",nameBn:"ময়মনসিংহ",divisionId:"div-08"},
+  {id:"dis-63",name:"Netrokona",nameBn:"নেত্রকোণা",divisionId:"div-08"},
+  {id:"dis-64",name:"Sherpur",nameBn:"শেরপুর",divisionId:"div-08"},
+];
+
+const UPAZILAS_SAMPLE = [
+  {id:"upa-001",name:"Dhamrai",nameBn:"ধামরাই",districtId:"dis-01"},
+  {id:"upa-002",name:"Dohar",nameBn:"দোহার",districtId:"dis-01"},
+  {id:"upa-003",name:"Keraniganj",nameBn:"কেরানীগঞ্জ",districtId:"dis-01"},
+  {id:"upa-004",name:"Nawabganj",nameBn:"নবাবগঞ্জ",districtId:"dis-01"},
+  {id:"upa-005",name:"Savar",nameBn:"সাভার",districtId:"dis-01"},
+  {id:"upa-006",name:"Alfadanga",nameBn:"আলফাডাঙ্গা",districtId:"dis-02"},
+  {id:"upa-007",name:"Bhanga",nameBn:"ভাঙ্গা",districtId:"dis-02"},
+  {id:"upa-008",name:"Boalmari",nameBn:"বোয়ালমারী",districtId:"dis-02"},
+  {id:"upa-009",name:"Charbhadrasan",nameBn:"চরভদ্রাসন",districtId:"dis-02"},
+  {id:"upa-010",name:"Faridpur Sadar",nameBn:"ফরিদপুর সদর",districtId:"dis-02"},
+  {id:"upa-011",name:"Madhukhali",nameBn:"মধুখালী",districtId:"dis-02"},
+  {id:"upa-012",name:"Nagarkanda",nameBn:"নগরকান্দা",districtId:"dis-02"},
+  {id:"upa-013",name:"Sadarpur",nameBn:"সদরপুর",districtId:"dis-02"},
+  {id:"upa-014",name:"Saltha",nameBn:"সালথা",districtId:"dis-02"},
+  {id:"upa-015",name:"Kaliakair",nameBn:"কালিয়াকৈর",districtId:"dis-03"},
+  {id:"upa-016",name:"Kaliganj",nameBn:"কালীগঞ্জ",districtId:"dis-03"},
+  {id:"upa-017",name:"Kapasia",nameBn:"কাপাসিয়া",districtId:"dis-03"},
+  {id:"upa-018",name:"Gazipur Sadar",nameBn:"গাজীপুর সদর",districtId:"dis-03"},
+  {id:"upa-019",name:"Sreepur",nameBn:"শ্রীপুর",districtId:"dis-03"},
+  {id:"upa-020",name:"Gopalganj Sadar",nameBn:"গোপালগঞ্জ সদর",districtId:"dis-04"},
+  {id:"upa-021",name:"Kashiani",nameBn:"কাশিয়ানী",districtId:"dis-04"},
+  {id:"upa-022",name:"Kotalipara",nameBn:"কোটালীপাড়া",districtId:"dis-04"},
+  {id:"upa-023",name:"Muksudpur",nameBn:"মুকসুদপুর",districtId:"dis-04"},
+  {id:"upa-024",name:"Tungipara",nameBn:"টুঙ্গিপাড়া",districtId:"dis-04"},
+];
+
+// ── Demo logic ────────────────────────────────────────────────────────────────
+const selDiv = document.getElementById('sel-division');
+const selDis = document.getElementById('sel-district');
+const selUpa = document.getElementById('sel-upazila');
+const result = document.getElementById('demo-result');
+
+// Populate divisions
+DIVISIONS.forEach(d => {
+  const o = new Option(`${d.name} — ${d.nameBn}`, d.id);
+  selDiv.add(o);
+});
+
+function onDivisionChange() {
+  const divId = selDiv.value;
+  selDis.innerHTML = '<option value="">Select District</option>';
+  selUpa.innerHTML = '<option value="">Select Upazila</option>';
+  selDis.disabled = !divId;
+  selUpa.disabled = true;
+
+  if (!divId) { showPlaceholder(); return; }
+
+  const districts = DISTRICTS.filter(d => d.divisionId === divId);
+  districts.forEach(d => {
+    const o = new Option(`${d.name} — ${d.nameBn}`, d.id);
+    selDis.add(o);
+  });
+
+  const div = DIVISIONS.find(d => d.id === divId);
+  showResult({
+    type: 'division',
+    id: div.id,
+    name: div.name,
+    nameBn: div.nameBn,
+    districts: `${districts.length} districts`
+  });
+}
+
+function onDistrictChange() {
+  const disId = selDis.value;
+  selUpa.innerHTML = '<option value="">Select Upazila</option>';
+  selUpa.disabled = !disId;
+
+  if (!disId) return;
+
+  const upas = UPAZILAS_SAMPLE.filter(u => u.districtId === disId);
+  upas.forEach(u => {
+    const o = new Option(`${u.name} — ${u.nameBn}`, u.id);
+    selUpa.add(o);
+  });
+
+  if (upas.length === 0) {
+    const o = new Option('(more upazilas in full dataset)', '');
+    selUpa.add(o);
+  }
+
+  const dis = DISTRICTS.find(d => d.id === disId);
+  const div = DIVISIONS.find(d => d.id === dis.divisionId);
+  showResult({
+    type: 'district',
+    id: dis.id,
+    name: dis.name,
+    nameBn: dis.nameBn,
+    divisionId: div.id,
+    division: div.name,
+    upazilas: `${upas.length}+ upazilas`
+  });
+}
+
+function onUpazilaChange() {
+  const upaId = selUpa.value;
+  if (!upaId) return;
+
+  const upa = UPAZILAS_SAMPLE.find(u => u.id === upaId);
+  const dis = DISTRICTS.find(d => d.id === upa.districtId);
+  const div = DIVISIONS.find(d => d.id === dis.divisionId);
+
+  showResult({
+    type: 'upazila — full location',
+    division: div.name + ' (' + div.id + ')',
+    district: dis.name + ' (' + dis.id + ')',
+    upazila: upa.name + ' (' + upa.id + ')',
+    nameBn: upa.nameBn,
+    districtId: upa.districtId,
+    upazilaId: upa.id,
+    note: 'getFullLocation("' + upa.id + '")'
+  });
+}
+
+function showResult(obj) {
+  result.classList.add('has-data');
+  let html = '';
+  for (const [k, v] of Object.entries(obj)) {
+    const isId = k === 'id' || k.endsWith('Id');
+    const isBn = k === 'nameBn';
+    html += `<div>
+      <span class="result-key">"${k}"</span>
+      <span class="op">: </span>
+      <span class="${isBn ? 'result-bn result-str' : isId ? 'result-num' : 'result-str'}">"${v}"</span>
+    </div>`;
+  }
+  result.innerHTML = html;
+}
+
+function showPlaceholder() {
+  result.classList.remove('has-data');
+  result.innerHTML = '<span style="color:var(--muted)">// Select a location above to see the data output...</span>';
+}
+
+// ── Tabs ────────────────────────────────────────────────────────────────────
+function switchTab(pkg) {
+  document.querySelectorAll('.install-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.install-cmd').forEach(c => c.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-' + pkg).classList.add('active');
+}
+
+// ── Copy ────────────────────────────────────────────────────────────────────
+function copyText(text, btn) {
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    btn.style.color = 'var(--green)';
+    setTimeout(() => { btn.textContent = orig; btn.style.color = ''; }, 2000);
+  });
+}
+
+// ── Scroll reveal ───────────────────────────────────────────────────────────
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
