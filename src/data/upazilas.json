@@ -449,7 +449,12 @@
     "nameBn": "ধনবাড়ী",
     "districtId": "dis-13"
   },
-  { "id": "upa-076", "name": "Itna", "nameBn": "ইটনা", "districtId": "dis-05" },
+  {
+    "id": "upa-076",
+    "name": "Itna",
+    "nameBn": "ইটনা",
+    "districtId": "dis-05"
+  },
   {
     "id": "upa-077",
     "name": "Katiadi",
@@ -1032,7 +1037,12 @@
     "nameBn": "পেকুয়া",
     "districtId": "dis-18"
   },
-  { "id": "upa-174", "name": "Ramu", "nameBn": "রামু", "districtId": "dis-18" },
+  {
+    "id": "upa-174",
+    "name": "Ramu",
+    "nameBn": "রামু",
+    "districtId": "dis-18"
+  },
   {
     "id": "upa-175",
     "name": "Teknaf",
@@ -1117,8 +1127,18 @@
     "nameBn": "রোয়াংছড়ি",
     "districtId": "dis-14"
   },
-  { "id": "upa-189", "name": "Lama", "nameBn": "লামা", "districtId": "dis-14" },
-  { "id": "upa-190", "name": "Ruma", "nameBn": "রুমা", "districtId": "dis-14" },
+  {
+    "id": "upa-189",
+    "name": "Lama",
+    "nameBn": "লামা",
+    "districtId": "dis-14"
+  },
+  {
+    "id": "upa-190",
+    "name": "Ruma",
+    "nameBn": "রুমা",
+    "districtId": "dis-14"
+  },
   {
     "id": "upa-191",
     "name": "Thanchi",
@@ -1203,7 +1223,12 @@
     "nameBn": "পাবনা সদর",
     "districtId": "dis-46"
   },
-  { "id": "upa-205", "name": "Bera", "nameBn": "বেড়া", "districtId": "dis-46" },
+  {
+    "id": "upa-205",
+    "name": "Bera",
+    "nameBn": "বেড়া",
+    "districtId": "dis-46"
+  },
   {
     "id": "upa-206",
     "name": "Atgharia",
@@ -1300,7 +1325,12 @@
     "nameBn": "শিবগঞ্জ",
     "districtId": "dis-41"
   },
-  { "id": "upa-222", "name": "Paba", "nameBn": "পবা", "districtId": "dis-47" },
+  {
+    "id": "upa-222",
+    "name": "Paba",
+    "nameBn": "পবা",
+    "districtId": "dis-47"
+  },
   {
     "id": "upa-223",
     "name": "Durgapur",
@@ -1595,7 +1625,12 @@
     "nameBn": "শ্যামনগর",
     "districtId": "dis-40"
   },
-  { "id": "upa-272", "name": "Tala", "nameBn": "তালা", "districtId": "dis-40" },
+  {
+    "id": "upa-272",
+    "name": "Tala",
+    "nameBn": "তালা",
+    "districtId": "dis-40"
+  },
   {
     "id": "upa-273",
     "name": "Kaliaganj",
@@ -2232,7 +2267,12 @@
     "nameBn": "শ্রীমঙ্গল",
     "districtId": "dis-58"
   },
-  { "id": "upa-379", "name": "Juri", "nameBn": "জুড়ী", "districtId": "dis-58" },
+  {
+    "id": "upa-379",
+    "name": "Juri",
+    "nameBn": "জুড়ী",
+    "districtId": "dis-58"
+  },
   {
     "id": "upa-380",
     "name": "Nabiganj",
@@ -2371,7 +2411,12 @@
     "nameBn": "দেবীগঞ্জ",
     "districtId": "dis-54"
   },
-  { "id": "upa-403", "name": "Boda", "nameBn": "বোদা", "districtId": "dis-54" },
+  {
+    "id": "upa-403",
+    "name": "Boda",
+    "nameBn": "বোদা",
+    "districtId": "dis-54"
+  },
   {
     "id": "upa-404",
     "name": "Atwari",
@@ -2876,7 +2921,12 @@
     "nameBn": "আটপাড়া",
     "districtId": "dis-63"
   },
-  { "id": "upa-488", "name": "Madan", "nameBn": "মদন", "districtId": "dis-63" },
+  {
+    "id": "upa-488",
+    "name": "Madan",
+    "nameBn": "মদন",
+    "districtId": "dis-63"
+  },
   {
     "id": "upa-489",
     "name": "Khaliajuri",
@@ -2906,5 +2956,17 @@
     "name": "Netrokona Sadar",
     "nameBn": "নেত্রকোণা সদর",
     "districtId": "dis-63"
+  },
+  {
+    "id": "upa-494",
+    "name": "Eidgaon",
+    "nameBn": "ঈদগাঁও",
+    "districtId": "dis-18"
+  },
+  {
+    "id": "upa-495",
+    "name": "Bandar",
+    "nameBn": "বন্দর",
+    "districtId": "dis-09"
   }
 ]

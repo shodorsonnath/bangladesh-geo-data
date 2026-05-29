@@ -1,0 +1,3236 @@
+[
+  {
+    "id": "ward-0001",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0002",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0003",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0004",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0005",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0006",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0007",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0008",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0009",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0010",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0011",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0012",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0013",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0014",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0015",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0016",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0017",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0018",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0019",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0020",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0021",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0022",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0023",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0024",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0025",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0026",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0027",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0028",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0029",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0030",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0031",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0032",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0033",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0034",
+    "wardNo": 34,
+    "name": "Ward No. 34",
+    "nameBn": "ওয়ার্ড নং ৩৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0035",
+    "wardNo": 35,
+    "name": "Ward No. 35",
+    "nameBn": "ওয়ার্ড নং ৩৫",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0036",
+    "wardNo": 36,
+    "name": "Ward No. 36",
+    "nameBn": "ওয়ার্ড নং ৩৬",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0037",
+    "wardNo": 37,
+    "name": "Ward No. 37",
+    "nameBn": "ওয়ার্ড নং ৩৭",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0038",
+    "wardNo": 38,
+    "name": "Ward No. 38",
+    "nameBn": "ওয়ার্ড নং ৩৮",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0039",
+    "wardNo": 39,
+    "name": "Ward No. 39",
+    "nameBn": "ওয়ার্ড নং ৩৯",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0040",
+    "wardNo": 40,
+    "name": "Ward No. 40",
+    "nameBn": "ওয়ার্ড নং ৪০",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0041",
+    "wardNo": 41,
+    "name": "Ward No. 41",
+    "nameBn": "ওয়ার্ড নং ৪১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0042",
+    "wardNo": 42,
+    "name": "Ward No. 42",
+    "nameBn": "ওয়ার্ড নং ৪২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0043",
+    "wardNo": 43,
+    "name": "Ward No. 43",
+    "nameBn": "ওয়ার্ড নং ৪৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0044",
+    "wardNo": 44,
+    "name": "Ward No. 44",
+    "nameBn": "ওয়ার্ড নং ৪৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0045",
+    "wardNo": 45,
+    "name": "Ward No. 45",
+    "nameBn": "ওয়ার্ড নং ৪৫",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0046",
+    "wardNo": 46,
+    "name": "Ward No. 46",
+    "nameBn": "ওয়ার্ড নং ৪৬",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0047",
+    "wardNo": 47,
+    "name": "Ward No. 47",
+    "nameBn": "ওয়ার্ড নং ৪৭",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0048",
+    "wardNo": 48,
+    "name": "Ward No. 48",
+    "nameBn": "ওয়ার্ড নং ৪৮",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0049",
+    "wardNo": 49,
+    "name": "Ward No. 49",
+    "nameBn": "ওয়ার্ড নং ৪৯",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0050",
+    "wardNo": 50,
+    "name": "Ward No. 50",
+    "nameBn": "ওয়ার্ড নং ৫০",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0051",
+    "wardNo": 51,
+    "name": "Ward No. 51",
+    "nameBn": "ওয়ার্ড নং ৫১",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0052",
+    "wardNo": 52,
+    "name": "Ward No. 52",
+    "nameBn": "ওয়ার্ড নং ৫২",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0053",
+    "wardNo": 53,
+    "name": "Ward No. 53",
+    "nameBn": "ওয়ার্ড নং ৫৩",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0054",
+    "wardNo": 54,
+    "name": "Ward No. 54",
+    "nameBn": "ওয়ার্ড নং ৫৪",
+    "cityCorpId": "cc-01"
+  },
+  {
+    "id": "ward-0055",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0056",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0057",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0058",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0059",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0060",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0061",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0062",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0063",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0064",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0065",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0066",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0067",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0068",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0069",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0070",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0071",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0072",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0073",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0074",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0075",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0076",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0077",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0078",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0079",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0080",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0081",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0082",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0083",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0084",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0085",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0086",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0087",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0088",
+    "wardNo": 34,
+    "name": "Ward No. 34",
+    "nameBn": "ওয়ার্ড নং ৩৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0089",
+    "wardNo": 35,
+    "name": "Ward No. 35",
+    "nameBn": "ওয়ার্ড নং ৩৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0090",
+    "wardNo": 36,
+    "name": "Ward No. 36",
+    "nameBn": "ওয়ার্ড নং ৩৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0091",
+    "wardNo": 37,
+    "name": "Ward No. 37",
+    "nameBn": "ওয়ার্ড নং ৩৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0092",
+    "wardNo": 38,
+    "name": "Ward No. 38",
+    "nameBn": "ওয়ার্ড নং ৩৮",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0093",
+    "wardNo": 39,
+    "name": "Ward No. 39",
+    "nameBn": "ওয়ার্ড নং ৩৯",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0094",
+    "wardNo": 40,
+    "name": "Ward No. 40",
+    "nameBn": "ওয়ার্ড নং ৪০",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0095",
+    "wardNo": 41,
+    "name": "Ward No. 41",
+    "nameBn": "ওয়ার্ড নং ৪১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0096",
+    "wardNo": 42,
+    "name": "Ward No. 42",
+    "nameBn": "ওয়ার্ড নং ৪২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0097",
+    "wardNo": 43,
+    "name": "Ward No. 43",
+    "nameBn": "ওয়ার্ড নং ৪৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0098",
+    "wardNo": 44,
+    "name": "Ward No. 44",
+    "nameBn": "ওয়ার্ড নং ৪৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0099",
+    "wardNo": 45,
+    "name": "Ward No. 45",
+    "nameBn": "ওয়ার্ড নং ৪৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0100",
+    "wardNo": 46,
+    "name": "Ward No. 46",
+    "nameBn": "ওয়ার্ড নং ৪৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0101",
+    "wardNo": 47,
+    "name": "Ward No. 47",
+    "nameBn": "ওয়ার্ড নং ৪৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0102",
+    "wardNo": 48,
+    "name": "Ward No. 48",
+    "nameBn": "ওয়ার্ড নং ৪৮",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0103",
+    "wardNo": 49,
+    "name": "Ward No. 49",
+    "nameBn": "ওয়ার্ড নং ৪৯",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0104",
+    "wardNo": 50,
+    "name": "Ward No. 50",
+    "nameBn": "ওয়ার্ড নং ৫০",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0105",
+    "wardNo": 51,
+    "name": "Ward No. 51",
+    "nameBn": "ওয়ার্ড নং ৫১",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0106",
+    "wardNo": 52,
+    "name": "Ward No. 52",
+    "nameBn": "ওয়ার্ড নং ৫২",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0107",
+    "wardNo": 53,
+    "name": "Ward No. 53",
+    "nameBn": "ওয়ার্ড নং ৫৩",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0108",
+    "wardNo": 54,
+    "name": "Ward No. 54",
+    "nameBn": "ওয়ার্ড নং ৫৪",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0109",
+    "wardNo": 55,
+    "name": "Ward No. 55",
+    "nameBn": "ওয়ার্ড নং ৫৫",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0110",
+    "wardNo": 56,
+    "name": "Ward No. 56",
+    "nameBn": "ওয়ার্ড নং ৫৬",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0111",
+    "wardNo": 57,
+    "name": "Ward No. 57",
+    "nameBn": "ওয়ার্ড নং ৫৭",
+    "cityCorpId": "cc-02"
+  },
+  {
+    "id": "ward-0112",
+    "wardNo": 1,
+    "name": "South Pahartali",
+    "nameBn": "দক্ষিণ পাহাড়তলী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0113",
+    "wardNo": 2,
+    "name": "Jalalabad",
+    "nameBn": "জালালাবাদ",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0114",
+    "wardNo": 3,
+    "name": "Panchlaish",
+    "nameBn": "পাঁচলাইশ",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0115",
+    "wardNo": 4,
+    "name": "Chandgaon",
+    "nameBn": "চান্দগাঁও",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0116",
+    "wardNo": 5,
+    "name": "Mohra",
+    "nameBn": "মোহরা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0117",
+    "wardNo": 6,
+    "name": "East Sholashahar",
+    "nameBn": "পূর্ব ষোলশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0118",
+    "wardNo": 7,
+    "name": "West Sholashahar",
+    "nameBn": "পশ্চিম ষোলশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0119",
+    "wardNo": 8,
+    "name": "Sulakbahar",
+    "nameBn": "সুলকবহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0120",
+    "wardNo": 9,
+    "name": "North Pahartali",
+    "nameBn": "উত্তর পাহাড়তলী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0121",
+    "wardNo": 10,
+    "name": "North Kattali",
+    "nameBn": "উত্তর কাট্টলী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0122",
+    "wardNo": 11,
+    "name": "South Kattali",
+    "nameBn": "দক্ষিণ কাট্টলী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0123",
+    "wardNo": 12,
+    "name": "Saraipara",
+    "nameBn": "সরাইপাড়া",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0124",
+    "wardNo": 13,
+    "name": "Pahartali",
+    "nameBn": "পাহাড়তলী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0125",
+    "wardNo": 14,
+    "name": "Lalkhan Bazar",
+    "nameBn": "লালখান বাজার",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0126",
+    "wardNo": 15,
+    "name": "Bagmoniram",
+    "nameBn": "বাগমনিরাম",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0127",
+    "wardNo": 16,
+    "name": "Chawk Bazar",
+    "nameBn": "চকবাজার",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0128",
+    "wardNo": 17,
+    "name": "West Bakalia",
+    "nameBn": "পশ্চিম বাকলিয়া",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0129",
+    "wardNo": 18,
+    "name": "East Bakalia",
+    "nameBn": "পূর্ব বাকলিয়া",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0130",
+    "wardNo": 19,
+    "name": "South Bakalia",
+    "nameBn": "দক্ষিণ বাকলিয়া",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0131",
+    "wardNo": 20,
+    "name": "Dewan Bazar",
+    "nameBn": "দেওয়ান বাজার",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0132",
+    "wardNo": 21,
+    "name": "Jamal Khan",
+    "nameBn": "জামাল খান",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0133",
+    "wardNo": 22,
+    "name": "Enayet Bazar",
+    "nameBn": "এনায়েত বাজার",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0134",
+    "wardNo": 23,
+    "name": "North Pathantooli",
+    "nameBn": "উত্তর পতেঙ্গাতুলি",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0135",
+    "wardNo": 24,
+    "name": "North Agrabad",
+    "nameBn": "উত্তর আগ্রাবাদ",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0136",
+    "wardNo": 25,
+    "name": "Rampur",
+    "nameBn": "রামপুর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0137",
+    "wardNo": 26,
+    "name": "North Halishahar",
+    "nameBn": "উত্তর হালিশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0138",
+    "wardNo": 27,
+    "name": "South Agrabad",
+    "nameBn": "দক্ষিণ আগ্রাবাদ",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0139",
+    "wardNo": 28,
+    "name": "Pathantooli",
+    "nameBn": "পাথানতুলি",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0140",
+    "wardNo": 29,
+    "name": "West Madarbari",
+    "nameBn": "পশ্চিম মাদারবাড়ী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0141",
+    "wardNo": 30,
+    "name": "East Madarbari",
+    "nameBn": "পূর্ব মাদারবাড়ী",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0142",
+    "wardNo": 31,
+    "name": "Alkaran",
+    "nameBn": "আলকরণ",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0143",
+    "wardNo": 32,
+    "name": "Anderkilla",
+    "nameBn": "আন্দরকিল্লা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0144",
+    "wardNo": 33,
+    "name": "Firingee Bazar",
+    "nameBn": "ফিরিঙ্গিবাজার",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0145",
+    "wardNo": 34,
+    "name": "Patharghata",
+    "nameBn": "পাথরঘাটা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0146",
+    "wardNo": 35,
+    "name": "Boxir Hat",
+    "nameBn": "বক্সিরহাট",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0147",
+    "wardNo": 36,
+    "name": "Gosaildanga",
+    "nameBn": "গোসাইলডাঙ্গা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0148",
+    "wardNo": 37,
+    "name": "North Middle Halishahar",
+    "nameBn": "উত্তর মধ্য হালিশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0149",
+    "wardNo": 38,
+    "name": "South Middle Halishahar",
+    "nameBn": "দক্ষিণ মধ্য হালিশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0150",
+    "wardNo": 39,
+    "name": "South Halishahar",
+    "nameBn": "দক্ষিণ হালিশহর",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0151",
+    "wardNo": 40,
+    "name": "North Patenga",
+    "nameBn": "উত্তর পতেঙ্গা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0152",
+    "wardNo": 41,
+    "name": "South Patenga",
+    "nameBn": "দক্ষিণ পতেঙ্গা",
+    "cityCorpId": "cc-03"
+  },
+  {
+    "id": "ward-0153",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0154",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0155",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0156",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0157",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0158",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0159",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0160",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0161",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0162",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0163",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0164",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0165",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0166",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0167",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0168",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0169",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0170",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0171",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0172",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0173",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0174",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0175",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0176",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0177",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0178",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0179",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0180",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0181",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0182",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0183",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0184",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0185",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0186",
+    "wardNo": 34,
+    "name": "Ward No. 34",
+    "nameBn": "ওয়ার্ড নং ৩৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0187",
+    "wardNo": 35,
+    "name": "Ward No. 35",
+    "nameBn": "ওয়ার্ড নং ৩৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0188",
+    "wardNo": 36,
+    "name": "Ward No. 36",
+    "nameBn": "ওয়ার্ড নং ৩৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0189",
+    "wardNo": 37,
+    "name": "Ward No. 37",
+    "nameBn": "ওয়ার্ড নং ৩৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0190",
+    "wardNo": 38,
+    "name": "Ward No. 38",
+    "nameBn": "ওয়ার্ড নং ৩৮",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0191",
+    "wardNo": 39,
+    "name": "Ward No. 39",
+    "nameBn": "ওয়ার্ড নং ৩৯",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0192",
+    "wardNo": 40,
+    "name": "Ward No. 40",
+    "nameBn": "ওয়ার্ড নং ৪০",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0193",
+    "wardNo": 41,
+    "name": "Ward No. 41",
+    "nameBn": "ওয়ার্ড নং ৪১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0194",
+    "wardNo": 42,
+    "name": "Ward No. 42",
+    "nameBn": "ওয়ার্ড নং ৪২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0195",
+    "wardNo": 43,
+    "name": "Ward No. 43",
+    "nameBn": "ওয়ার্ড নং ৪৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0196",
+    "wardNo": 44,
+    "name": "Ward No. 44",
+    "nameBn": "ওয়ার্ড নং ৪৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0197",
+    "wardNo": 45,
+    "name": "Ward No. 45",
+    "nameBn": "ওয়ার্ড নং ৪৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0198",
+    "wardNo": 46,
+    "name": "Ward No. 46",
+    "nameBn": "ওয়ার্ড নং ৪৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0199",
+    "wardNo": 47,
+    "name": "Ward No. 47",
+    "nameBn": "ওয়ার্ড নং ৪৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0200",
+    "wardNo": 48,
+    "name": "Ward No. 48",
+    "nameBn": "ওয়ার্ড নং ৪৮",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0201",
+    "wardNo": 49,
+    "name": "Ward No. 49",
+    "nameBn": "ওয়ার্ড নং ৪৯",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0202",
+    "wardNo": 50,
+    "name": "Ward No. 50",
+    "nameBn": "ওয়ার্ড নং ৫০",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0203",
+    "wardNo": 51,
+    "name": "Ward No. 51",
+    "nameBn": "ওয়ার্ড নং ৫১",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0204",
+    "wardNo": 52,
+    "name": "Ward No. 52",
+    "nameBn": "ওয়ার্ড নং ৫২",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0205",
+    "wardNo": 53,
+    "name": "Ward No. 53",
+    "nameBn": "ওয়ার্ড নং ৫৩",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0206",
+    "wardNo": 54,
+    "name": "Ward No. 54",
+    "nameBn": "ওয়ার্ড নং ৫৪",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0207",
+    "wardNo": 55,
+    "name": "Ward No. 55",
+    "nameBn": "ওয়ার্ড নং ৫৫",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0208",
+    "wardNo": 56,
+    "name": "Ward No. 56",
+    "nameBn": "ওয়ার্ড নং ৫৬",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0209",
+    "wardNo": 57,
+    "name": "Ward No. 57",
+    "nameBn": "ওয়ার্ড নং ৫৭",
+    "cityCorpId": "cc-04"
+  },
+  {
+    "id": "ward-0210",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0211",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0212",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0213",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0214",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0215",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0216",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0217",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0218",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0219",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0220",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0221",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0222",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0223",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0224",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0225",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0226",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0227",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0228",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0229",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0230",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0231",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0232",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0233",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0234",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0235",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0236",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-05"
+  },
+  {
+    "id": "ward-0237",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0238",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0239",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0240",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0241",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0242",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0243",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0244",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0245",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0246",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0247",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0248",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0249",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0250",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0251",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0252",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0253",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0254",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0255",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0256",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0257",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0258",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0259",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0260",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0261",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0262",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0263",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-06"
+  },
+  {
+    "id": "ward-0264",
+    "wardNo": 1,
+    "name": "Dakatia",
+    "nameBn": "ডাকাতিয়া",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0265",
+    "wardNo": 2,
+    "name": "Boyra",
+    "nameBn": "বয়রা",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0266",
+    "wardNo": 3,
+    "name": "Khalishpur",
+    "nameBn": "খালিশপুর",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0267",
+    "wardNo": 4,
+    "name": "Khan A Sabur Road",
+    "nameBn": "খান এ সবুর রোড",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0268",
+    "wardNo": 5,
+    "name": "Sonadanga",
+    "nameBn": "সোনাডাঙ্গা",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0269",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0270",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0271",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0272",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0273",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0274",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0275",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0276",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0277",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0278",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0279",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0280",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0281",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0282",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0283",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0284",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0285",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0286",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0287",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0288",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0289",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0290",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0291",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0292",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0293",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0294",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-07"
+  },
+  {
+    "id": "ward-0295",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0296",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0297",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0298",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0299",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0300",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0301",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0302",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0303",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0304",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0305",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0306",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0307",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0308",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0309",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0310",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0311",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0312",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0313",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0314",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0315",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0316",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0317",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0318",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0319",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0320",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0321",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0322",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0323",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0324",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-08"
+  },
+  {
+    "id": "ward-0325",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0326",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0327",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0328",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0329",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0330",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0331",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0332",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0333",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0334",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0335",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0336",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0337",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0338",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0339",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0340",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0341",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0342",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0343",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0344",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0345",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0346",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0347",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0348",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0349",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0350",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0351",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0352",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0353",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0354",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-09"
+  },
+  {
+    "id": "ward-0355",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0356",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0357",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0358",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0359",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0360",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0361",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0362",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0363",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0364",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0365",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0366",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0367",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0368",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0369",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0370",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0371",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0372",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0373",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0374",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0375",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0376",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0377",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0378",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0379",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0380",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0381",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0382",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0383",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0384",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0385",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0386",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0387",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0388",
+    "wardNo": 34,
+    "name": "Ward No. 34",
+    "nameBn": "ওয়ার্ড নং ৩৪",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0389",
+    "wardNo": 35,
+    "name": "Ward No. 35",
+    "nameBn": "ওয়ার্ড নং ৩৫",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0390",
+    "wardNo": 36,
+    "name": "Ward No. 36",
+    "nameBn": "ওয়ার্ড নং ৩৬",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0391",
+    "wardNo": 37,
+    "name": "Ward No. 37",
+    "nameBn": "ওয়ার্ড নং ৩৭",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0392",
+    "wardNo": 38,
+    "name": "Ward No. 38",
+    "nameBn": "ওয়ার্ড নং ৩৮",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0393",
+    "wardNo": 39,
+    "name": "Ward No. 39",
+    "nameBn": "ওয়ার্ড নং ৩৯",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0394",
+    "wardNo": 40,
+    "name": "Ward No. 40",
+    "nameBn": "ওয়ার্ড নং ৪০",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0395",
+    "wardNo": 41,
+    "name": "Ward No. 41",
+    "nameBn": "ওয়ার্ড নং ৪১",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0396",
+    "wardNo": 42,
+    "name": "Ward No. 42",
+    "nameBn": "ওয়ার্ড নং ৪২",
+    "cityCorpId": "cc-10"
+  },
+  {
+    "id": "ward-0397",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0398",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0399",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0400",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0401",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0402",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0403",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0404",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0405",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0406",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0407",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0408",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0409",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0410",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0411",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0412",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0413",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0414",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0415",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0416",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0417",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0418",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0419",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0420",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0421",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0422",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0423",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0424",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0425",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0426",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0427",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0428",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0429",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-11"
+  },
+  {
+    "id": "ward-0430",
+    "wardNo": 1,
+    "name": "Ward No. 1",
+    "nameBn": "ওয়ার্ড নং ১",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0431",
+    "wardNo": 2,
+    "name": "Ward No. 2",
+    "nameBn": "ওয়ার্ড নং ২",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0432",
+    "wardNo": 3,
+    "name": "Ward No. 3",
+    "nameBn": "ওয়ার্ড নং ৩",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0433",
+    "wardNo": 4,
+    "name": "Ward No. 4",
+    "nameBn": "ওয়ার্ড নং ৪",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0434",
+    "wardNo": 5,
+    "name": "Ward No. 5",
+    "nameBn": "ওয়ার্ড নং ৫",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0435",
+    "wardNo": 6,
+    "name": "Ward No. 6",
+    "nameBn": "ওয়ার্ড নং ৬",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0436",
+    "wardNo": 7,
+    "name": "Ward No. 7",
+    "nameBn": "ওয়ার্ড নং ৭",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0437",
+    "wardNo": 8,
+    "name": "Ward No. 8",
+    "nameBn": "ওয়ার্ড নং ৮",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0438",
+    "wardNo": 9,
+    "name": "Ward No. 9",
+    "nameBn": "ওয়ার্ড নং ৯",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0439",
+    "wardNo": 10,
+    "name": "Ward No. 10",
+    "nameBn": "ওয়ার্ড নং ১০",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0440",
+    "wardNo": 11,
+    "name": "Ward No. 11",
+    "nameBn": "ওয়ার্ড নং ১১",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0441",
+    "wardNo": 12,
+    "name": "Ward No. 12",
+    "nameBn": "ওয়ার্ড নং ১২",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0442",
+    "wardNo": 13,
+    "name": "Ward No. 13",
+    "nameBn": "ওয়ার্ড নং ১৩",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0443",
+    "wardNo": 14,
+    "name": "Ward No. 14",
+    "nameBn": "ওয়ার্ড নং ১৪",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0444",
+    "wardNo": 15,
+    "name": "Ward No. 15",
+    "nameBn": "ওয়ার্ড নং ১৫",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0445",
+    "wardNo": 16,
+    "name": "Ward No. 16",
+    "nameBn": "ওয়ার্ড নং ১৬",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0446",
+    "wardNo": 17,
+    "name": "Ward No. 17",
+    "nameBn": "ওয়ার্ড নং ১৭",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0447",
+    "wardNo": 18,
+    "name": "Ward No. 18",
+    "nameBn": "ওয়ার্ড নং ১৮",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0448",
+    "wardNo": 19,
+    "name": "Ward No. 19",
+    "nameBn": "ওয়ার্ড নং ১৯",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0449",
+    "wardNo": 20,
+    "name": "Ward No. 20",
+    "nameBn": "ওয়ার্ড নং ২০",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0450",
+    "wardNo": 21,
+    "name": "Ward No. 21",
+    "nameBn": "ওয়ার্ড নং ২১",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0451",
+    "wardNo": 22,
+    "name": "Ward No. 22",
+    "nameBn": "ওয়ার্ড নং ২২",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0452",
+    "wardNo": 23,
+    "name": "Ward No. 23",
+    "nameBn": "ওয়ার্ড নং ২৩",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0453",
+    "wardNo": 24,
+    "name": "Ward No. 24",
+    "nameBn": "ওয়ার্ড নং ২৪",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0454",
+    "wardNo": 25,
+    "name": "Ward No. 25",
+    "nameBn": "ওয়ার্ড নং ২৫",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0455",
+    "wardNo": 26,
+    "name": "Ward No. 26",
+    "nameBn": "ওয়ার্ড নং ২৬",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0456",
+    "wardNo": 27,
+    "name": "Ward No. 27",
+    "nameBn": "ওয়ার্ড নং ২৭",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0457",
+    "wardNo": 28,
+    "name": "Ward No. 28",
+    "nameBn": "ওয়ার্ড নং ২৮",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0458",
+    "wardNo": 29,
+    "name": "Ward No. 29",
+    "nameBn": "ওয়ার্ড নং ২৯",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0459",
+    "wardNo": 30,
+    "name": "Ward No. 30",
+    "nameBn": "ওয়ার্ড নং ৩০",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0460",
+    "wardNo": 31,
+    "name": "Ward No. 31",
+    "nameBn": "ওয়ার্ড নং ৩১",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0461",
+    "wardNo": 32,
+    "name": "Ward No. 32",
+    "nameBn": "ওয়ার্ড নং ৩২",
+    "cityCorpId": "cc-12"
+  },
+  {
+    "id": "ward-0462",
+    "wardNo": 33,
+    "name": "Ward No. 33",
+    "nameBn": "ওয়ার্ড নং ৩৩",
+    "cityCorpId": "cc-12"
+  }
+]

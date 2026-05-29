@@ -1,29 +1,53 @@
 {
   "name": "bangladesh-geo-data",
-  "version": "1.0.7",
-  "description": "Bangladesh divisions, districts, and upazilas dataset with utility functions",
+  "version": "4.0.0",
+  "description": "Bangladesh divisions, districts, upazilas, unions, city corporations, wards and thanas dataset with utility functions (639 thanas, 462 wards, 4,599 unions, 495 upazilas, 64 districts, 8 divisions)",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist",
+    "src",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "type-check": "tsc --noEmit",
     "prepare": "yarn build"
   },
   "keywords": [
     "bangladesh",
+    "divisions",
     "districts",
     "upazilas",
-    "divisions",
+    "unions",
+    "wards",
+    "thana",
+    "city-corporation",
     "bd-data",
-    "geo-data"
+    "geo-data",
+    "geography",
+    "administrative",
+    "postal-code",
+    "police-station"
   ],
-  "author": "Shodorson",
+  "author": {
+    "name": "Shodorson",
+    "email": "shodorsonnath@gmail.com",
+    "url": "https://github.com/shodorsonnath"
+  },
   "license": "MIT",
   "devDependencies": {
+    "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   }
 }
