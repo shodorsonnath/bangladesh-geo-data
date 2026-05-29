@@ -48,6 +48,7 @@
     "url": "https://github.com/shodorsonnath"
   },
   "license": "MIT",
+  "homepage": "https://shodorsonnath.github.io/bangladesh-geo-data/",
   "devDependencies": {
     "typescript": "^5.0.0"
   }
