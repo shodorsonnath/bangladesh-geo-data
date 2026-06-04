@@ -1,6 +1,6 @@
 {
   "name": "bangladesh-geo-data",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "description": "Bangladesh administrative geo dataset with divisions, districts, upazilas, unions, city corporations, wards, and thanas (639 thanas, 462 wards, 4,599 unions, 495 upazilas, 64 districts, 8 divisions)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
